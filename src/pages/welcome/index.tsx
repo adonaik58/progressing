@@ -1,7 +1,12 @@
-import React from "react";
+import { H1 } from "../../components/Titles";
 
 const Welcome = () => {
-  return <div>Welcome, Adonai</div>;
+  return (
+    <div>
+      <H1>Seja bem vindo</H1>
+      <p>Alo adonai</p>
+    </div>
+  );
 };
 
 export default Welcome;

@@ -1,4 +1,5 @@
 body {
-  background: black;
-  color: #fff;
+  background: var(--background);
+  color: var(--color);
+  font-family: calibri;
 }
